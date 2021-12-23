@@ -29,7 +29,7 @@ public class FileUploadHandler extends HttpServlet {
     private static final String MAIN_PAGE_LINK = "index.jsp";
 
     private File file;
-    private int maxFileSize = 150 * 1024;
+    private int maxFileSize = 300 * 1024;
     private int maxMemSize = 150 * 1024;
 
     public FileUploadHandler() {

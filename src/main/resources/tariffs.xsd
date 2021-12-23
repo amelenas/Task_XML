@@ -28,6 +28,7 @@
     </complexType>
     <simpleType name="tariffID">
         <restriction base="positiveInteger">
+	<pattern value="[0-9]{1,100}"/>
         </restriction>
     </simpleType>
     <complexType name="parameters">
