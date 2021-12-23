@@ -1,0 +1,309 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<tariffs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.com/tariffs"
+         xsi:schemaLocation="http://www.example.com/tariffs tariffs.xsd">
+
+    <tariff tariffID="1" smsPrice="0.2">
+        <tariffName>All inclusive</tariffName>
+        <operatorName>MTS</operatorName>
+        <tariffID>1</tariffID>
+        <payroll>5.0</payroll>
+        <callPrices>
+            <innerCallPrice>1.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>1.0</internet>
+        </callPrices>
+        <smsPrice>1.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_MINUTES</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2018-04-27</openDate>
+    </tariff>
+
+    <tariff tariffID="2" smsPrice="0.3">
+        <tariffName>Super</tariffName>
+        <operatorName>LIFE</operatorName>
+        <tariffID>2</tariffID>
+        <payroll>10</payroll>
+        <callPrices>
+            <innerCallPrice>0.65</innerCallPrice>
+            <outerCallPrice>0.95</outerCallPrice>
+            <internet>20</internet>
+        </callPrices>
+        <smsPrice>0.05</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_MINUTES</tariffication>
+            <connectPrice>1.0</connectPrice>
+        </parameters>
+        <openDate>2013-04-27</openDate>
+    </tariff>
+
+    <tariff tariffID="3" smsPrice="0.3">
+        <tariffName>Your Decision</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>3</tariffID>
+        <payroll>40</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.0</outerCallPrice>
+            <internet>1</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0</connectPrice>
+        </parameters>
+        <openDate>2019-03-01</openDate>
+    </tariff>
+
+    <tariff tariffID="4" smsPrice="0.3">
+        <tariffName>Close people 2</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>4</tariffID>
+        <payroll>40</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.0</outerCallPrice>
+            <internet>5.0</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0</connectPrice>
+        </parameters>
+        <openDate>2021-04-27</openDate>
+    </tariff>
+
+    <tariff tariffID="5" smsPrice="0.3">
+        <tariffName>To the maximum!</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>5</tariffID>
+        <payroll>50</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.0</outerCallPrice>
+            <internet>10.0</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0</connectPrice>
+        </parameters>
+        <openDate>2020-04-01</openDate>
+    </tariff>
+
+    <tariff tariffID="6" smsPrice="0.3">
+        <tariffName>SuperCITY</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>6</tariffID>
+        <payroll>30</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.0</outerCallPrice>
+            <internet>5.0</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>2.0</connectPrice>
+        </parameters>
+        <openDate>2020-04-01</openDate>
+    </tariff>
+
+    <tariff tariffID="7" smsPrice="0.3">
+        <tariffName>Close people 3</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>7</tariffID>
+        <payroll>20</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>3.0</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>1.5</connectPrice>
+        </parameters>
+        <openDate>2021-04-27</openDate>
+    </tariff>
+
+    <tariff tariffID="8" smsPrice="0.3">
+        <tariffName>Close people 4</tariffName>
+        <operatorName>BEELINE</operatorName>
+        <tariffID>8</tariffID>
+        <payroll>15</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>1.0</internet>
+        </callPrices>
+        <smsPrice>0.0</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>1.5</connectPrice>
+        </parameters>
+        <openDate>2021-04-27</openDate>
+    </tariff>
+
+    <tariff tariffID="9" smsPrice="0.3">
+        <tariffName>Shake Mini</tariffName>
+        <operatorName>LIFE</operatorName>
+        <tariffID>9</tariffID>
+        <payroll>5</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>5.0</internet>
+        </callPrices>
+        <smsPrice>1.2</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0.12</connectPrice>
+        </parameters>
+        <openDate>2021-01-01</openDate>
+    </tariff>
+
+    <tariff tariffID="10" smsPrice="0.3">
+        <tariffName>Shake</tariffName>
+        <operatorName>LIFE</operatorName>
+        <tariffID>10</tariffID>
+        <payroll>7</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>100.0</internet>
+        </callPrices>
+        <smsPrice>1.2</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>3</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0</connectPrice>
+        </parameters>
+        <openDate>2021-01-01</openDate>
+    </tariff>
+
+    <tariff tariffID="11" smsPrice="0.2">
+        <tariffName>Super 10</tariffName>
+        <operatorName>MTS</operatorName>
+        <tariffID>11</tariffID>
+        <payroll>21.30</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>10.0</internet>
+        </callPrices>
+        <smsPrice>0.5</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-05-03</openDate>
+    </tariff>
+
+    <tariff tariffID="12" smsPrice="0.2">
+        <tariffName>Super 25</tariffName>
+        <operatorName>MTS</operatorName>
+        <tariffID>12</tariffID>
+        <payroll>30.60</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>1.0</outerCallPrice>
+            <internet>25</internet>
+        </callPrices>
+        <smsPrice>0.5</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-05-03</openDate>
+    </tariff>
+
+    <tariff tariffID="13" smsPrice="0.2">
+        <tariffName>Comfort M</tariffName>
+        <operatorName>A1</operatorName>
+        <tariffID>13</tariffID>
+        <payroll>21.73</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.85</outerCallPrice>
+            <internet>10</internet>
+        </callPrices>
+        <smsPrice>0.35</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>2</favoriteNumbersAvailable>
+            <tariffication>PER_1_MONTHS</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-05-03</openDate>
+    </tariff>
+
+    <tariff tariffID="14" smsPrice="0.2">
+        <tariffName>Comfort S</tariffName>
+        <operatorName>A1</operatorName>
+        <tariffID>14</tariffID>
+        <payroll>13.83</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.85</outerCallPrice>
+            <internet>5</internet>
+        </callPrices>
+        <smsPrice>0.35</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_MINUTES</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-10-03</openDate>
+    </tariff>
+
+    <tariff tariffID="15" smsPrice="0.2">
+        <tariffName>Super Voice</tariffName>
+        <operatorName>A1</operatorName>
+        <tariffID>15</tariffID>
+        <payroll>0.85</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.85</outerCallPrice>
+            <internet>0.1</internet>
+        </callPrices>
+        <smsPrice>0.35</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_MINUTES</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-10-03</openDate>
+    </tariff>
+
+    <tariff tariffID="16" smsPrice="0.2">
+        <tariffName>Super Voice 2</tariffName>
+        <operatorName>A1</operatorName>
+        <tariffID>16</tariffID>
+        <payroll>0.75</payroll>
+        <callPrices>
+            <innerCallPrice>0.0</innerCallPrice>
+            <outerCallPrice>0.50</outerCallPrice>
+            <internet>0.2</internet>
+        </callPrices>
+        <smsPrice>0.35</smsPrice>
+        <parameters>
+            <favoriteNumbersAvailable>1</favoriteNumbersAvailable>
+            <tariffication>PER_MINUTES</tariffication>
+            <connectPrice>0.80</connectPrice>
+        </parameters>
+        <openDate>2020-11-03</openDate>
+    </tariff>
+</tariffs>

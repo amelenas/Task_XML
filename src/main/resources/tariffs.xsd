@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/tariffs"
+        xmlns:tns="http://www.example.com/tariffs"
+        elementFormDefault="qualified">
+    <element name="tariffs">
+        <complexType>
+            <sequence>
+                <element name="tariff" type="tns:tariff" minOccurs="1" maxOccurs="100"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="tariff">
+        <sequence>
+            <element name="tariffName" type="string"/>
+            <element name="operatorName" type="tns:operatorName"/>
+            <element name="tariffID" type="positiveInteger"/>
+            <element name="payroll" type="double"/>
+            <element name="callPrices" type="tns:callPrices"/>
+            <element name="smsPrice" type="double"/>
+            <element name="parameters" type="tns:parameters"/>
+            <element name="openDate" type="date"/>
+        </sequence>
+        <attribute name="tariffID" type="tns:tariffID" use="required"/>
+        <attribute name="smsPrice" use="optional" default="none">
+
+        </attribute>
+    </complexType>
+    <simpleType name="tariffID">
+        <restriction base="positiveInteger">
+        </restriction>
+    </simpleType>
+    <complexType name="parameters">
+        <sequence>
+            <element name="favoriteNumbersAvailable" type="positiveInteger"/>
+            <element name="tariffication" type="tns:tariffication"/>
+            <element name="connectPrice" type="double"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="callPrices">
+        <sequence>
+            <element name="innerCallPrice" type="double"/>
+            <element name="outerCallPrice" type="double"/>
+            <element name="internet" type="double"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="operatorName">
+        <restriction base="string">
+            <enumeration value="MTS"/>
+            <enumeration value="A1"/>
+            <enumeration value="LIFE"/>
+            <enumeration value="BEELINE"/>
+            <enumeration value="MEGAFON"/>
+        </restriction>
+    </simpleType>
+
+
+    <simpleType name="tariffication">
+        <restriction base="string">
+            <enumeration value="PER_MINUTES"/>
+            <enumeration value="PER_1_MONTHS"/>
+        </restriction>
+    </simpleType>
+</schema>
